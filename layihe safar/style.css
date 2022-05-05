@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{ 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+} body {
+    width: 1152px;
+    height: 700px;
+}
+
+img {
+    width: 89px;
+    height: 23px;
+    margin: 15px 64px 12px 100px
+}
+
+header {
+    height: 50px;
+    width: 1152px;
+    border-radius: 0px;
+    background-color: #F5F5F6
+}
+
+header p {
+    margin-top: 17px;
+    margin-bottom: 14px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #959BA4;
+    height: 19px;
+}
+
+.bank {
+    margin-right: 13px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: black;
+    width: 44px;
+}
+
+.bizn {
+    margin-right: 21px;
+    width: 50px;
+}
+
+.inve {
+    width: 94px;
+    margin-right: 11px;
+}
+
+.stra {
+    width: 94px;
+    margin-right: 16px;
+}
+
+.moba {
+    width: 68px;
+    margin-right: 7px;
+}
+
+.pute {
+    width: 101px;
+    margin-right: 10px;
+}
+
+.razv {
+    width: 101px;
+    margin-right: 109px;
+}
+
+.login {
+    margin: 9px 0 8px 0;
+    height: 33px;
+    width: 58px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    border-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+header {
+    display: flex;
+}
+
+ 
+.calc p{ 
+    display: flex; 
+    align-items: center; 
+    background: #FFFFFF; 
+    padding: 7px; 
+    border-radius: 4px; 
+} 
+.sag{
+    margin-top: 13px;
+}
+ 
+h1{ 
+    width: 1000px; 
+    display: flex; 
+    font-size: 36px; 
+    line-height: 42px;
+    margin: 56px 0 33px 253px; 
+} 
+ 
+.bank-calc{ 
+    width: 620px; 
+    margin-left: 253px;
+    display: flex; 
+    justify-content: center; 
+    font-weight: 400; 
+    font-size: 15px; 
+    color: #8d8888; 
+ 
+} 
+ 
+.buying-azn{ 
+    margin-right: 100px; 
+} 
+ 
+.buying-azn ul,.selling-azn ul{ 
+    display: flex; 
+    box-sizing: border-box; 
+    
+} 
+ 
+.buying h5,.selling h5{ 
+    margin-bottom: 10px; 
+} 
+.buying-azn ul li,.selling-azn ul li{ 
+    list-style: none; 
+    border: 1px solid black; 
+    padding: 5px 16px; 
+} 
+ 
+.calc{ 
+    width: 259px;
+    height: 102px;
+    left: 253px;
+    top: 250px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.safar{
+    background-color:#833AE0;
+    color:  white;
+}
+
+input{
+    border: none;
+    width: 240px;
+    height: 38px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    margin-top: 11px;
+}
+
+.deyer{
+color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+input:focus{
+    outline: none;
+}
